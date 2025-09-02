@@ -3,19 +3,19 @@
 import javax.swing.JFrame; // Import the JFrame class
 
 public class Main {
-
     public static void main(String[] args) {
         // Create a new JFrame object
-        JFrame frame = new JFrame("Cumshots <3"); // Set the window title
+        JFrame window = new JFrame("Cumshots <3"); // Set the window title
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setResizable(false);
+        window.setTitle("Cumshots <3");
 
-        // Set the size of the window (width, height in pixels)
-        frame.setSize(800, 600);
+        PanelSettings panelSettings = new PanelSettings();
+        window.add(panelSettings);
 
-        // Specify what happens when the user closes the window
-        // EXIT_ON_CLOSE terminates the application when the window is closed
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.pack();
 
-        // Make the window visible
-        frame.setVisible(true);
+        window.setLocationRelativeTo(null);
+        window.setVisible(true);
     }
 }
