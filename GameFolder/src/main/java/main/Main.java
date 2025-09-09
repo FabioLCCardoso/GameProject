@@ -8,7 +8,7 @@ public class Main {
         JFrame window = new JFrame(); // Set the window title
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
-        window.setTitle("Cumshots <3");
+        window.setTitle("Cumshot");
 
         PanelSettings panelSettings = new PanelSettings();
         window.add(panelSettings);

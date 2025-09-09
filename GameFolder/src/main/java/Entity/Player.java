@@ -115,9 +115,17 @@ public class Player extends Entity {
             break;
             case "down": image = down[spriteNum];
             break;
-            case "right": image = right[spriteNum];
+            case "right":
+                if (spriteNum >= right.length) {
+                    spriteNum = 0;
+                }
+                image = right[spriteNum];
             break;
-            case "left": image = left[spriteNum];
+            case "left":
+                if (spriteNum >= left.length) {
+                    spriteNum = 0;
+                }
+                image = left[spriteNum];
             break;
 
         }
