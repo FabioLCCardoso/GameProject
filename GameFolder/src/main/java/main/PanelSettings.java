@@ -31,12 +31,12 @@ public class PanelSettings extends JPanel implements Runnable{
 
     int playerX = 100;
     int playerY = 100;
-    int playerSpeed = 6;
+    int playerSpeed = 4;
 
     //constructor
     public PanelSettings() {
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));
-        this.setBackground(Color.black);
+        this.setBackground(Color.blue);
         this.setDoubleBuffered(true);
         this.addKeyListener(keyH);
         this.setFocusable(true);
