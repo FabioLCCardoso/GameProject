@@ -24,7 +24,13 @@ public class PanelSettings extends JPanel implements Runnable{
     TileManager tileM = new TileManager(this);
     KeyHandler keyH = new KeyHandler();
     Thread gameThread;
-    Player player = new Player(this, keyH);
+    public Player player = new Player(this, keyH);
+
+    //World Settings
+    public final int maxWorldCol = 50; //CHANGE LATER
+    public final int maxWorldRow = 50; //CHANGE LATER
+    public final int worldWidth = tileSize * maxWorldCol;
+    public final int worldHeight = tileSize * maxWorldRow;
 
 
 
