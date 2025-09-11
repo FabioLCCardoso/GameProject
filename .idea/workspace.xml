@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="270b67b7-e3be-4b36-999c-aaef8f5397c6" name="Changes" comment="Camera added &#10;TODO: World map (Not this Placeholder), Collision, combat, npcs, etc...">
+      <change afterPath="$PROJECT_DIR$/GameFolder/src/main/java/main/CollisionCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/Entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/src/main/java/Entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/Entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/src/main/java/Entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/Tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/src/main/java/Tile/TileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/main/PanelSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/src/main/java/main/PanelSettings.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FabioLCCardoso&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FabioLCCardoso/GameProject.git&quot;,
+    &quot;accountId&quot;: &quot;c5905b71-0ff8-4682-a982-fcc257e7841c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="32A2is5Lq08q9ESv9QEsO37qmqH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.game.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/Workspace/GameProject/GameFolder/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/GameProject/GameFolder/src/main/java/Player&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\GameProject\GameFolder\src\main\java\Player" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26574.91" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26574.91" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="270b67b7-e3be-4b36-999c-aaef8f5397c6" name="Changes" comment="" />
+      <created>1756849187448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756849187448</updated>
+      <workItem from="1756849188695" duration="48000" />
+      <workItem from="1756849363762" duration="3442000" />
+      <workItem from="1756858417946" duration="9762000" />
+      <workItem from="1756870049227" duration="663000" />
+      <workItem from="1756871003213" duration="42000" />
+      <workItem from="1756878392414" duration="52000" />
+      <workItem from="1756878479175" duration="117000" />
+      <workItem from="1757020274404" duration="4402000" />
+      <workItem from="1757368783949" duration="9153000" />
+      <workItem from="1757524262170" duration="4171000" />
+      <workItem from="1757607430190" duration="3750000" />
+    </task>
+    <task id="LOCAL-00001" summary="Starting project">
+      <option name="closed" value="true" />
+      <created>1756849678710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756849678710</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Starting project">
+      <option name="closed" value="true" />
+      <created>1756849878763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756849878763</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Starting project">
+      <option name="closed" value="true" />
+      <created>1756849971580</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756849971580</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Starting project">
+      <option name="closed" value="true" />
+      <created>1756851239238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756851239238</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Window/Starting threads">
+      <option name="closed" value="true" />
+      <created>1756852797651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756852797651</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Movements added">
+      <option name="closed" value="true" />
+      <created>1756871035657</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756871035657</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Player Sprites added">
+      <option name="closed" value="true" />
+      <created>1757376347361</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757376347361</updated>
+    </task>
+    <task id="LOCAL-00008" summary="MapLoader added &#10;TODO: World map, camera, combat, npcs, etc...">
+      <option name="closed" value="true" />
+      <created>1757379885396</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757379885396</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Camera added &#10;TODO: World map (Not this Placeholder), Collision, combat, npcs, etc...">
+      <option name="closed" value="true" />
+      <created>1757528673310</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757528673310</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Starting project" />
+    <MESSAGE value="Window/Starting threads" />
+    <MESSAGE value="Movements added" />
+    <MESSAGE value="Player Sprites added" />
+    <MESSAGE value="MapLoader added &#10;TODO: World map, camera, combat, npcs, etc..." />
+    <MESSAGE value="Camera added &#10;TODO: World map (Not this Placeholder), Collision, combat, npcs, etc..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Camera added &#10;TODO: World map (Not this Placeholder), Collision, combat, npcs, etc..." />
+  </component>
+</project>

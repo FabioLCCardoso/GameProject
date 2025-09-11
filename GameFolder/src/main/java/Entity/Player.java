@@ -23,6 +23,9 @@ public class Player extends Entity {
         screenX = gp.screenWidth / 2 -(gp.tileSize / 2);
         screenY = gp.screenHeight / 2 -(gp.tileSize / 2);
 
+        solidArea = new Rectangle(8, 16, 32, 32 );
+
+
         setDefaultValues();
         getPlayerImage();
     }
@@ -74,19 +77,19 @@ public class Player extends Entity {
      if(isMoving) {
          if (keyH.upPressed) {
              direction = "up";
-             worldY -= speed;
+
          }
        else  if (keyH.downPressed) {
              direction = "down";
-             worldY += speed;
+
          }
        else  if (keyH.leftPressed) {
              direction = "left";
-             worldX -= speed;
+
          }
        else  if (keyH.rightPressed) {
              direction = "right";
-             worldX += speed;
+
          }
 
          //animation counter
@@ -106,6 +109,27 @@ public class Player extends Entity {
      }
          } else {
              spriteNum = 0; }
+
+    //check collision
+     collisionOn = false;
+     gp.cChecker.checkTile(this);
+     //if collision false, player move, if true, cant
+        if(!collisionOn && isMoving){
+            switch (direction) {
+                case "up":
+                worldY -= speed;
+                break;
+                case "down":
+                worldY += speed;
+                break;
+                case "left":
+                worldX -= speed;
+                break;
+                case "right":
+                worldX += speed;
+                break;
+            }
+        }
 
     }
     public void draw(Graphics2D g2d) {

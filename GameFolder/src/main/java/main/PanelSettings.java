@@ -25,12 +25,15 @@ public class PanelSettings extends JPanel implements Runnable{
     KeyHandler keyH = new KeyHandler();
     Thread gameThread;
     public Player player = new Player(this, keyH);
+    public CollisionCheck cChecker = new CollisionCheck(this);
 
     //World Settings
     public final int maxWorldCol = 50; //CHANGE LATER
     public final int maxWorldRow = 50; //CHANGE LATER
     public final int worldWidth = tileSize * maxWorldCol;
     public final int worldHeight = tileSize * maxWorldRow;
+
+
 
 
 
