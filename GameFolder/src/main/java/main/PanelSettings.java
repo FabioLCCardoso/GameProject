@@ -2,6 +2,7 @@ package main;
 
 import Entity.Player;
 import Tile.TileManager;
+import objects.SuperObjects;
 
 import javax.swing.JPanel;
 import java.awt.*;
@@ -26,6 +27,12 @@ public class PanelSettings extends JPanel implements Runnable{
     Thread gameThread;
     public Player player = new Player(this, keyH);
     public CollisionCheck cChecker = new CollisionCheck(this);
+    public AssetSetter aSetter = new AssetSetter(this);
+
+    //this make it can only DISPLAY up to 10 objets at the same time.
+    //can change this at the cost of performance.
+    public SuperObjects obj[] = new SuperObjects[10];
+
 
     //World Settings
     public final int maxWorldCol = 50; //CHANGE LATER
@@ -51,6 +58,11 @@ public class PanelSettings extends JPanel implements Runnable{
         this.addKeyListener(keyH);
         this.setFocusable(true);
     }
+
+    public void setupGame(){
+        aSetter.setObject();
+    }
+
     public void startGameThread(){
         gameThread = new Thread(this);
         gameThread.start();
@@ -129,10 +141,20 @@ public class PanelSettings extends JPanel implements Runnable{
         super.paintComponent(g);
 
         Graphics2D g2d = (Graphics2D) g;
-
+        //tile draw
         tileM.draw(g2d);
 
+        //object draw
+        for(int i = 0; i < obj.length; i++){
+            if(obj[i] != null){
+                obj[i].draw(g2d, this);
+            }
+        }
+
+        //player draw
         player.draw(g2d);
+
+
 
         g2d.dispose();
     }

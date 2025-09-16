@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="270b67b7-e3be-4b36-999c-aaef8f5397c6" name="Changes" comment="Camera added &#10;TODO: World map (Not this Placeholder), Collision, combat, npcs, etc...">
-      <change afterPath="$PROJECT_DIR$/GameFolder/src/main/java/main/CollisionCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/Entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/src/main/java/Entity/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/Entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/src/main/java/Entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/Tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/src/main/java/Tile/TileManager.java" afterDir="false" />
+    <list default="true" id="270b67b7-e3be-4b36-999c-aaef8f5397c6" name="Changes" comment="CCollision added &#10;TODO: World map (Not this Placeholder), Objects/Items, combat, npcs, dialogues, etc...">
+      <change afterPath="$PROJECT_DIR$/GameFolder/src/main/java/main/AssetSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameFolder/src/main/java/objects/Obj_Chest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameFolder/src/main/java/objects/Obj_Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameFolder/src/main/java/objects/Obj_Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameFolder/src/main/java/objects/SuperObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/Player/MC_DOWN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/Player/MC_LEFT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/Player/MC_RIGHT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/Player/MC_UP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/src/main/java/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameFolder/src/main/java/main/PanelSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/src/main/java/main/PanelSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/target/classes/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameFolder/target/classes/main/PanelSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/GameFolder/target/classes/main/PanelSettings.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +51,6 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="32A2is5Lq08q9ESv9QEsO37qmqH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,6 +80,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\GameProject\GameFolder\src\main\java\Player" />
     </key>
@@ -79,8 +90,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26574.91" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26574.91" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
@@ -102,7 +113,10 @@
       <workItem from="1757020274404" duration="4402000" />
       <workItem from="1757368783949" duration="9153000" />
       <workItem from="1757524262170" duration="4171000" />
-      <workItem from="1757607430190" duration="3750000" />
+      <workItem from="1757607430190" duration="4295000" />
+      <workItem from="1757612281654" duration="910000" />
+      <workItem from="1757976707786" duration="45000" />
+      <workItem from="1757977130905" duration="5040000" />
     </task>
     <task id="LOCAL-00001" summary="Starting project">
       <option name="closed" value="true" />
@@ -176,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757528673310</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CCollision added &#10;TODO: World map (Not this Placeholder), Objects/Items, combat, npcs, dialogues, etc...">
+      <option name="closed" value="true" />
+      <created>1757611954020</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757611954020</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +222,7 @@
     <MESSAGE value="Player Sprites added" />
     <MESSAGE value="MapLoader added &#10;TODO: World map, camera, combat, npcs, etc..." />
     <MESSAGE value="Camera added &#10;TODO: World map (Not this Placeholder), Collision, combat, npcs, etc..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Camera added &#10;TODO: World map (Not this Placeholder), Collision, combat, npcs, etc..." />
+    <MESSAGE value="CCollision added &#10;TODO: World map (Not this Placeholder), Objects/Items, combat, npcs, dialogues, etc..." />
+    <option name="LAST_COMMIT_MESSAGE" value="CCollision added &#10;TODO: World map (Not this Placeholder), Objects/Items, combat, npcs, dialogues, etc..." />
   </component>
 </project>
